@@ -1,7 +1,12 @@
 import React from 'react';
+import Navbar from "../components/Navbar";
+import EmployeeTable from "../components/EmployeeTable";
+
 
 function App() {
   return (
+    <>
+    <Navbar />
     <div className="App">
       <header className="App-header">
         <p>
@@ -17,6 +22,7 @@ function App() {
         </a>
       </header>
     </div>
+    </>
   );
 }
 
